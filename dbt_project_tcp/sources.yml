@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: source_db
+    database: QLIK_DB
+    schema: BRONZE_LANDING
+    tables:
+      - name: Customer
+      - name: Product
